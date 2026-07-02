@@ -1,0 +1,19 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+main {
+    margin-top: 200px;
+}
+
+h1,
+h2 {
+    font-family: "Cinzel", serif;
+    font-size: 85px;
+} 
+
+h3 {
+    font-family: "Poppins", sans-serif;
+}
