@@ -23,14 +23,75 @@ h3 {
     font-family: var(--secondary-font);
     font-size: 28px;
     font-weight: 300;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .hero .contact-button {
     border-radius: 6px;
-    background-color: rgb(91, 56, 10);
+    background-color: #7a7049;
     padding: 18px 30px; 
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+
+.learn-more-paragraph {
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    margin: 280px 0 40px;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: #7a7049;
+}
+
+.container h4 {
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--primary-font);
+    padding: 100px 0 20px;
+}
+
+.container p {
+    font-size: 20px;
+    line-height: 1.7;
+    font-family: var(--secondary-font);
+}
+
+.learn-more-button {
+    border-radius: 6px;
+    padding: 18px 30px; 
+    color: #7a7049;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #7a7049;
+}
+
+@media (max-width: 900px) {
+    h1,
+    h2 {
+        font-size: 50px
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .container h4 {
+        font-size: 35px
+    }
+
+    .container p {
+        font-size: 17px;
+    }
+
+    .container {
+        text-align: center;
+    }
+    
+    .learn-more-paragraph {
+        font-size: 16px;
+        margin: 120px 0 40px;
+    }
 }
