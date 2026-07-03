@@ -1,19 +1,36 @@
-h1,
-h2,
-h3 {
-    text-align: center;
+:root {
+    --primary-font: "Cinzel", serif;
+    --secondary-font: "Poppins", sans-serif;
+    --backgroud-color: rgb(240, 225, 205);
 }
 
-main {
+body {
+    background-color: var(--backgroud-color);
+}
+
+.hero {
     margin-top: 200px;
+    text-align: center;
 }
 
 h1,
 h2 {
-    font-family: "Cinzel", serif;
+    font-family: var(--primary-font);
     font-size: 85px;
 } 
 
 h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--secondary-font);
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.hero .contact-button {
+    border-radius: 6px;
+    background-color: rgb(91, 56, 10);
+    padding: 18px 30px; 
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
