@@ -26,13 +26,14 @@ h3 {
     margin-bottom: 50px;
 }
 
-.hero .contact-button {
+.branding-button {
     border-radius: 6px;
     background-color: #7a7049;
-    padding: 18px 30px; 
+    padding: 16px 25px; 
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-family: var(--secondary-font)
 }
 
 .learn-more-paragraph {
@@ -52,10 +53,11 @@ h3 {
     padding: 100px 0 20px;
 }
 
-.container p {
+p {
     font-size: 20px;
     line-height: 1.7;
     font-family: var(--secondary-font);
+    
 }
 
 .learn-more-button {
@@ -66,6 +68,28 @@ h3 {
     text-decoration: none;
     font-size: 18px;
     border: 2px solid #7a7049;
+}
+
+.about-section {
+    padding: 150px 60px;
+}
+
+.about-section h1 {
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.about-section h2 {
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.img {
+    border: 4px solid #7a7049;
+    box-shadow: 5px 5px 5px  grey;
+    margin-left: 20px;
 }
 
 @media (max-width: 900px) {
@@ -94,4 +118,18 @@ h3 {
         font-size: 16px;
         margin: 120px 0 40px;
     }
+
+    .about-section h1 {
+        font-size: 25x;
+    }
+
+    .about-section h2 {
+        font-size: 20px;
+    }
+
+    .about-section {
+        text-align: center;
+        padding: 20px;
+    }
+
 }
