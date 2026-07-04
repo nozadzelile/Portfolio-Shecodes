@@ -40,7 +40,7 @@ h3 {
 
 .my-works-header {
     font-size: 50px;
-    margin: 40px 0 0 50px;
+    margin: 25px 0 0 40px;
     text-align: center;
 }
 
@@ -74,12 +74,26 @@ h3 {
     font-family: var(--secondary-font);
     font-weight: bold;
     opacity: 0.6;
+    color: black;
 }
 
 .img {
     border: 2px solid black;
     box-shadow: 5px 5px 5px  grey;
     border-radius: 8px;
+}
+
+.contact-img {
+    width: 70%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px  grey;
+    border-radius: 8px;
+}
+
+.contact-content h2 {
+    font-size: 23px;
+    margin-top: 50px;
+    font-family: var(--secondary-font);
 }
 
 @media (max-width: 900px) {
@@ -124,6 +138,10 @@ h3 {
 
     .content-container p {
         margin-bottom: 30px;
+    }
+
+    .contact-img {
+        width: 100%;
     }
 
 }
