@@ -128,32 +128,36 @@ h3 {
     text-decoration: underline;
 }
 
-.nav {
+.portfolio-nav {
     margin-top: 20px;
     padding: 0;
 }
 
-.nav ul {
+.portfolio-nav ul {
     margin: 0;
     padding: 0;
 }
 
-.nav li {
+.portfolio-nav li {
     display: inline;
     list-style: none;
     padding-left: 20px;
 }
 
-.nav a {
+.portfolio-nav a {
     text-decoration: none;
     color: #9a280e;
     font-weight: bold;
     font-size: 20px;
 }
 
-.nav li a {
+.portfolio-nav li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+.portfolio-nav li.active a {
+    color: #000;
 }
 
 footer {
