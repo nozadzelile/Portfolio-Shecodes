@@ -9,14 +9,14 @@ body {
 }
 
 .hero {
-    margin-top: 150px;
+    margin-top: 120px;
     text-align: center;
 }
 
 h1,
 h2 {
     font-family: var(--primary-font);
-    font-size: 95px;
+    font-size: 90px;
     color: #9a280e;
     font-weight: bold;
 } 
@@ -38,9 +38,14 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+.branding-button:hover {
+    background-color: white;
+    color: #9a280e;
+}
+
 .my-works-header {
     font-size: 40px;
-    margin: 20px 0 0 70px;
+    margin: 50px 0 0 70px;
     text-align: center;
 }
 
@@ -58,6 +63,23 @@ h3 {
     text-align: center;
     font-family: var(--secondary-font);
     opacity: 0.6;
+}
+
+.learn-more-button {
+    border-radius: 6px;
+    background-color: #9a280e;
+    padding: 10px 10px; 
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    border: none;
+}
+
+.learn-more-button:hover {
+    background-color: white;
+    color: #9a280e;
+    border: none;
 }
 
 .about-section {
@@ -91,16 +113,29 @@ h3 {
 }
 
 .contact-content h2 {
-    font-size: 23px;
-    margin-top: 50px;
+    font-size: 22px;
+    margin-top: 30px;
     font-family: var(--secondary-font);
 }
 
-.nav {
-    margin: 20px 0 0 60px;
+.contact-content a {
+    color: black;
     text-decoration: none;
+}
+
+.contact-content a:hover {
+    color: #9a280e;
+    text-decoration: underline;
+}
+
+.nav {
+    margin-top: 20px;
     padding: 0;
-    
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
 }
 
 .nav li {
@@ -120,6 +155,31 @@ h3 {
     text-decoration: none;
     font-size: 20px;
 }
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+}
+
+footer .social-links a {
+    padding: 6px;
+    margin: 0 10px;
+    color: white;
+    background-color: #9a280e;
+    border-radius: 50%;
+}
+
+footer .social-links a:hover {
+    background-color: white;
+    color: #9a280e;
+}
+
 
 
 @media (max-width: 900px) {
@@ -162,6 +222,10 @@ h3 {
         margin-left: 0;
     }
 
+    .img {
+        margin-top: 20px;
+    }
+
     .content-container p {
         margin-bottom: 30px;
     }
@@ -170,4 +234,7 @@ h3 {
         width: 100%;
     }
 
+    .learn-more-button {
+        margin-bottom: 20px;
+    }
 }
