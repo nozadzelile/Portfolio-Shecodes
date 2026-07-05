@@ -9,7 +9,7 @@ body {
 }
 
 .hero {
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -39,8 +39,8 @@ h3 {
 }
 
 .my-works-header {
-    font-size: 50px;
-    margin: 25px 0 0 40px;
+    font-size: 40px;
+    margin: 20px 0 0 70px;
     text-align: center;
 }
 
@@ -61,7 +61,7 @@ h3 {
 }
 
 .about-section {
-    padding: 140px 60px;
+    padding: 100px 60px;
 }
 
 .about-section h1 {
@@ -95,6 +95,32 @@ h3 {
     margin-top: 50px;
     font-family: var(--secondary-font);
 }
+
+.nav {
+    margin: 20px 0 0 60px;
+    text-decoration: none;
+    padding: 0;
+    
+}
+
+.nav li {
+    display: inline;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #9a280e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
 
 @media (max-width: 900px) {
     h1,
