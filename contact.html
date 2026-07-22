@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container portfolio-nav d-flex justify-content-center justify-content-md-between">
+  <div class="container portfolio-nav d-flex justify-content-center justify-content-md-between">
     <a href="/index.html" class="d-none d-md-block">Lile Nozadze</a>
     <ul>
       <li>
@@ -28,29 +28,61 @@
       </li>
     </ul>
   </div>
-    <h1 class="my-works-header mb-4">Get in Touch</h1>
-    <div class="content-container p-5">
-        <div class="row">
-            <div class="col-md-6 d-flex justify-content-center">
-                <img src="images/me.png" class="img-fluid contact-img" alt="Profile Picture">
+    <div class="contact-content">
+      <h1 class="contact-header">Get in Touch</h1>
+      <h2>I'd love to hear about your ideas and see how I can help.</h2>
+    </div>
+
+    <div class="contact-container">
+      <div class="row">
+        <div class="col-5">
+          <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+            <input type="hidden" name="from_name" value="My Website" />
+            
+            <div class="form-group-container">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+              </div>
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone</label>
+                <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+              </div>
             </div>
-                <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
-                    <div class="contact-content text-center text-md-start">
-                    <h2>Email</h2>
-                    <p class="fs-5">
-                        <a href="mailto:nozadzelile@gmail.com">nozadzelile@gmail.com</a>
-                    </p>
-                    <h2>LinkedIn</h2>
-                    <p class="fs-5">
-                        <a href="https://www.linkedin.com/in/lile-nozadze/">Lile Nozadze</a>
-                    </p>
-                    <h2>Instagram</h2>
-                    <p class="fs-5">
-                        <a href="https://www.instagram.com/lnozadze/">@lnozadze</a>
-                    </p>
-                    </div>
-                </div>
+            <button class="form-submit" type="submit">Send Message</button>
+          </form>
         </div>
+        <div class="col-4">
+          <img src="images/get in touch.png" alt="" style="width: 100%">
+        </div>
+        <div class="col-3">
+          <ul class="my-contacts">
+            <li>
+            <i class="fa-brands fa-linkedin" style="color: rgb(0, 0, 0); font-size: 30px"></i><br />
+            <a href="https://www.linkedin.com/in/lile-nozadze/" title="LinkedIn Profile" style="text-decoration: none;">Lile Nozadze</a>
+            </li>
+            <li>
+            <i class="fa-solid fa-envelope" style="color: rgb(0, 0, 0); font-size: 30px"></i><br />
+            <a href="mailto:nozadzelile@gmail.com" class="email-link" title="Gmail" style="text-decoration: none;">nozadzelile@gmail.com</a><br />
+            </li>
+            <li>
+            <i class="fa-solid fa-phone" style="color: rgb(0, 0, 0); font-size: 30px"></i>
+            <p>+34 640 845040</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 </body>
-</html>
+</html> 
